@@ -73,8 +73,6 @@ export const SearchScreen = ({ history }) => {
                         </div>
                     }
 
-                    
-
                     {
                         heroesFiltered.map(hero => (
                             <HeroCard
