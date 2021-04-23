@@ -9,7 +9,7 @@ import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
 
 import { LoginScreen } from '../components/login/LoginScreen';
-import { DashboardRotues } from './DashboardRotues';
+import { DashboardRoutes } from './DashboardRoutes';
 
 export const AppRouter = () => {
 
@@ -28,7 +28,7 @@ export const AppRouter = () => {
 
                     <PrivateRoute 
                         path="/" 
-                        component={ DashboardRotues } 
+                        component={ DashboardRoutes } 
                         isAuthenticated={ user.logged }
                     />
                 </Switch>
